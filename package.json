@@ -1,0 +1,27 @@
+{
+  "name": "isle_server",
+  "version": "1.0.0",
+  "description": "ISLE Server for processing LEAPMotion gestures and controlling ArtNet universes",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephan de Wit",
+  "license": "ISC",
+  "dependencies": {
+    "artnet": "^1.4.0",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "honeycomb-grid": "^3.1.2",
+    "leapjs": "^0.6.4",
+    "log-update": "^3.4.0",
+    "node-addon-api": "^2.0.0",
+    "nodemon": "^2.0.2",
+    "rxjs": "^6.5.4",
+    "single-line-log": "^1.1.2",
+    "socket.io": "^2.3.0",
+    "websocket": "^1.0.31",
+    "workerpool": "^5.0.4"
+  }
+}

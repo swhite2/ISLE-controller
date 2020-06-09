@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="static/gpu-browser.min.js"></script>
+    <script src="static/svg.min.js"></script>
+    <script src="static/leap-1.0.0.js"></script>
+    <script src="static/honeycomb.min.js"></script>
+    <script src="static/motionControllerSvg.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io();
+    </script>
+  </head>
+  <body>
+    <div>
+      <p id="hexCoordinates_hand1"></p>
+      <p id="hexCoordinates_hand2"></p>
+    </div>
+    <div id="gridContainer"></div>
+  </body>
+</html>
