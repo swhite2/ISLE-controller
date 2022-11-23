@@ -20,7 +20,7 @@
     "nodemon": "^2.0.2",
     "rxjs": "^6.5.4",
     "single-line-log": "^1.1.2",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.5.0",
     "websocket": "^1.0.31",
     "workerpool": "^5.0.4"
   }
